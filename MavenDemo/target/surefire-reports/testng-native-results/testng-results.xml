@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24" started-at="2017-09-22T18:14:00Z" finished-at="2017-09-22T18:14:01Z">
+    <groups>
+      <group name="group2">
+        <method signature="GroupTest.secondGroup()[pri:0, instance:first.testNG.example.GroupTest@19dfb72a]" name="secondGroup" class="first.testNG.example.GroupTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="GroupTest.firstGroup()[pri:0, instance:first.testNG.example.GroupTest@19dfb72a]" name="firstGroup" class="first.testNG.example.GroupTest"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Command line test" duration-ms="24" started-at="2017-09-22T18:14:00Z" finished-at="2017-09-22T18:14:01Z">
+      <class name="first.testNG.example.TestNGDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="beforeTest" is-config="true" duration-ms="7" started-at="2017-09-22T14:14:00Z" finished-at="2017-09-22T14:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="firstTest" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="secondTest" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:first.testNG.example.TestNGDemo@3b6eb2ec]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- first.testNG.example.TestNGDemo -->
+      <class name="first.testNG.example.GroupTest">
+        <test-method status="PASS" signature="firstGroup()[pri:0, instance:first.testNG.example.GroupTest@19dfb72a]" name="firstGroup" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGroup -->
+        <test-method status="PASS" signature="secondGroup()[pri:0, instance:first.testNG.example.GroupTest@19dfb72a]" name="secondGroup" duration-ms="0" started-at="2017-09-22T14:14:01Z" finished-at="2017-09-22T14:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGroup -->
+      </class> <!-- first.testNG.example.GroupTest -->
+      <class name="first.testNG.example.ParamsTest">
+        <test-method status="PASS" signature="UserId(java.lang.String, java.lang.String)[pri:0, instance:first.testNG.example.ParamsTest@57829d67]" name="UserId" duration-ms="1" started-at="2017-09-22T14:14:01Z" data-provider="getData" finished-at="2017-09-22T14:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bairon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Computer Science]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+        <test-method status="PASS" signature="UserId(java.lang.String, java.lang.String)[pri:0, instance:first.testNG.example.ParamsTest@57829d67]" name="UserId" duration-ms="1" started-at="2017-09-22T14:14:01Z" data-provider="getData" finished-at="2017-09-22T14:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Math]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+      </class> <!-- first.testNG.example.ParamsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
